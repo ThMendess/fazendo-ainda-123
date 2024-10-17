@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+   background-color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+
+
+}
+
+h2{
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+header{
+  background-color: rgba(240, 248, 255, 0.185);
+    color: black;
+text-align: center;
+padding: 50px 0;
+}
+.header h1{
+   
+        font-family: "Rye", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+    font-size: 3rem;
+    border-bottom: 10px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(144, 192, 204, 0);
+    padding: 20px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  transition: color 0.35;
+}
+nav ul li a:hover{
+    color: rgb(226, 8, 8);
+}
+.header{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 20px;
+height: 100vh;
+}
+
+.box{
+background-color: white;
+padding: 20px;
+margin: 10px;
+width: 60%;
+text-align: justify;
+
+
+}
+footer{
+background-color: rgb(16, 65, 105);
+color: white;
+text-align: center;
+padding: 10px 0;
+margin-top: 20px;
+height: 30px;
+
+}
+
+
+
+
+
+
+.parallax1{
+    background-image: url(https://st4.depositphotos.com/5392356/24959/i/450/depositphotos_249590430-stock-photo-happy-mature-people-doing-exercises.jpg);
+}
+.parallax2{
+    background-image: url(https://www.diariodecontagem.com.br/fotos/materias/20112017021418_img-6305.jpg);
+
+}
+.parallax3{
+    background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/07/31/210124963-shutterstock2054070545-1.jpg);
+
+
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
